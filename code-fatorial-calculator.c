@@ -6,11 +6,12 @@ int main(){
     
     int i, n;//  variáveis int, i e n
     printf("Quantos valores deseja inserir: ");
-    scanf("%i", &n);
+    scanf("%i", &n);// o usuário digita o valor da variavel n em uma string %
     
     int v1[n], v2[n]; // criação dos variáveis v1 e v2, com vetores n 
     
-    for(i=0; i<n; i++){
+    for(i=0; i<n; i++) // enquanto o valor de i for igual a 0 
+    {
         printf("Insira valores que deseja ver o seu fatorial: ");
         scanf("%i", &v1[i]);
     }
