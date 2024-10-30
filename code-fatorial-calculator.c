@@ -10,10 +10,11 @@ int main(){
     
     int v1[n], v2[n]; // criação dos variáveis v1 e v2, com vetores n 
     
-    for(i=0; i<n; i++) // enquanto o valor de i for igual a 0 
+    for(i=0; i<n; i++) // enquanto n for menor que i faça e adiciona +1 no i
     {
         printf("Insira valores que deseja ver o seu fatorial: ");
-        scanf("%i", &v1[i]);
+        scanf("%i", &v1[i])
+            ;// o usuário insere os valores do vetor v1
     }
     for(i=0; i<n; i++){
         printf("\nVetor v1[%i] = %i; ", i, v1[i]);
